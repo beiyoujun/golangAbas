@@ -6,7 +6,7 @@ func main() {
 
 	fmt.Printf(jiujiu(1,1,"")) //递归方法
 
-	funcTwo() // for嵌套的方法
+	funcTwo() // for嵌套的方法都是
 
 }
 
