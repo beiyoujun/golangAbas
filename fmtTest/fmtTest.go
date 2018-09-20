@@ -4,15 +4,15 @@ import (
 	"fmt"
 )
 
-type Integer int
+type integer int
 
-func (a *Integer) ToPrint() {
+func (a *integer) toPrint() {
 	fmt.Println(a)
 }
 
 func main() {
 	//fmt
-	var a Integer
-	a.ToPrint()            //方法值形式 (method value)
-	(*Integer).ToPrint(&a) //方法表达式形式 (method expression)
+	var a integer
+	a.toPrint()            //方法值形式 (method value)
+	(*integer).toPrint(&a) //方法表达式形式 (method expression)
 }
