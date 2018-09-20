@@ -11,6 +11,7 @@ func (a *Integer) ToPrint() {
 }
 
 func main() {
+	//fmt
 	var a Integer
 	a.ToPrint()            //方法值形式 (method value)
 	(*Integer).ToPrint(&a) //方法表达式形式 (method expression)

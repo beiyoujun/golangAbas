@@ -8,6 +8,11 @@ func main() {
 
 }
 
+type person struct {
+	name string
+	sex  string
+}
+
 func nextPermutationOne(array []int) {
 	k := len(array) - 1
 	i := k
