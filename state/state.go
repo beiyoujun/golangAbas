@@ -14,11 +14,12 @@ func main() {
 	o.Refund()
 }
 
+//定义协议
 type OrderDo interface {
-	Pay()
-	Delete()
-	Cancel()
-	Refund()
+	Pay()    //支付操作
+	Delete() //删除操作
+	Cancel() //取消操作
+	Refund() //退款操作
 }
 
 type OrderInfo struct {
