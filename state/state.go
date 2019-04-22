@@ -1,4 +1,4 @@
-package main
+package state
 
 import "fmt"
 
@@ -8,11 +8,6 @@ const (
 	PAY_STAY    = 2 //支付中
 	PAY_FAIL    = 3 //支付失败
 )
-
-func main() {
-	o := NewOrderInfo(0)
-	o.Refund()
-}
 
 //定义协议
 type OrderDo interface {
